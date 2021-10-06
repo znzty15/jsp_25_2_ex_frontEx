@@ -41,7 +41,21 @@ public class FrontControl extends HttpServlet {
 	}
 	
 	private void actionDo(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
-	}
-
+        //System.out.println("Front Controller가 실행됨");
+        
+        String uri  = request.getRequestURI();
+        //System.out.println(uri);
+        String conpath = request.getContextPath();
+        //System.out.println(conpath);
+        String command = uri.substring(conpath.length());
+        System.out.println(command);
+        
+        if(command.equals("/insert.do")) {
+           System.out.println("insert command 호출");           
+        }else if(command.equals("/delete.do")){
+           System.out.println("delete command 호출");
+        }else if(command.equals("/update.do")){
+           System.out.println("update command 호출");
+        }
+     }
 }

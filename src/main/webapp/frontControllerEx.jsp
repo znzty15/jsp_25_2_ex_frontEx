@@ -7,6 +7,8 @@
 <title>frontControllerEx.jsp</title>
 </head>
 <body>
-	<a href="insert.do">insert 호출</a>	
+<a href="insert.do">insert 호출</a><br>
+<a href="delete.do">delete 호출</a><br>
+<a href="update.do">update 호출</a><br>
 </body>
 </html>

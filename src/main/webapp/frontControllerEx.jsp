@@ -1,14 +1,15 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
+<meta charset="EUC-KR">
 <title>frontControllerEx.jsp</title>
 </head>
 <body>
-<a href="insert.do">insert í˜¸ì¶œ</a><br>
-<a href="delete.do">delete í˜¸ì¶œ</a><br>
-<a href="update.do">update í˜¸ì¶œ</a><br>
+
+	<a href="insert.do">insert È£Ãâ</a><br> <!-- È¸¿ø°¡ÀÔ -->
+	<a href="delete.do">delete È£Ãâ</a><br> <!-- È¸¿ø»èÁ¦ -->
+	<a href="update.do">update È£Ãâ</a><br> <!-- È¸¿ø¼öÁ¤ -->
 </body>
 </html>
